@@ -49,6 +49,16 @@ cd YOLOv12-DeepFace-Video-Analyzer
 pip install -r requirements.txt
 ```
 
+### 3. 📥 Download Models (Required)
+ 
+Due to file size limits, model weights are not included in the repository.Please download the models below and place them in the model_pt/ folder.
+| Model FileDescription | Download | Link |
+| :--- | :--- | :--- |
+| yolo12 | YOLO12 | [https://docs.ultralytics.com/ko/models/yolo12/#performance-metrics] |
+| yolov12n-face.pt | YOLO12 Face Detection (nano) | [https://github.com/YapaLab/yolo-face] |
+
+⚠️ Note: Create a folder named model_pt inside the project directory if it doesn't exist.
+
 ---
 
 ## 💻 Usage
@@ -93,6 +103,7 @@ Found Intervals:
 ### 📧 Contact: https://github.com/0-vin
 
 "The more you explore, the more you grow."
+
 
 
 
